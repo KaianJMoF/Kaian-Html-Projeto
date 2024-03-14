@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root{
+    --cordefundo: #5F5656;
+    --fundodomenu: #D9D9D9;
+    --botão: #564646;
+    --seleçao: #F2DDDD;
+    --marcador: #2B2727;
+    --sombradomarcador: #423E3E;
+    --cordafonte: #2B2525;
+
+}
+
+
+body{
+    background-color: var(--cordefundo);
+    color: var(--cordafonte);
+    font-family: 'Archivo Black', sans-serif;
+}
