@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 :root{
-    --cordefundo: #5F5656;
+    --cordefundo: #926a6a;
     --fundodomenu: #D9D9D9;
     --botão: #564646;
     --seleçao: #F2DDDD;
@@ -16,4 +16,19 @@ body{
     background-color: var(--cordefundo);
     color: var(--cordafonte);
     font-family: 'Archivo Black', sans-serif;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 }
